@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #fdeed9;
+    min-height: 100vh;
+    color: #333;
+    padding: 15vh 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1040px;
+    height: 100%;
+    background-color: #779fb3;
+    padding: 15px 15px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero__title {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    text-wrap: balance;
+    margin: 15px auto;
+}
+
+.hero__container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, min-content));
+    grid-template-rows: auto;
+    gap: 15px;
+    padding: 10px 15px;
+    justify-content: center;
+}
+
+.hero__container--loading {
+    padding-bottom: 70px; 
+}
+
+.hero__container--loading::after {
+    position: absolute;
+    content: '';
+    bottom: 10px;
+    z-index: 99;
+    left: calc(50% - 24px); 
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+.cat-card {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 15px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cat-card:hover {
+    cursor: pointer;
+}
+
+.cat-card__img-container {
+    background-color: whitesmoke;
+    position: relative;
+    aspect-ratio: 1/1;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.cat-card__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.cat-card__img--hover {
+    z-index: 0;
+}
+
+.cat-card__img-container:hover 
+.cat-card__img--hover {
+    z-index: 2;
+}
+
+.cat-card__name {
+    font-size: 1.5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    line-height: 1;
+    min-height: 3rem;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.cat-card__name--loading {
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+
+.cat-card__tags {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 5px;
+    overflow: hidden;
+    height: 30px;
+    max-width: 100%;
+}
+
+.cat-card__tags--loading {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cat-card__tag {
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #333;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #f1f1e4;
+}
+
+.cat-card__tag--loading {
+    background-color: whitesmoke;
+    width: 33%;
+}
+
+.cat-card__tag--cat {
+    background-color: #f5b79a;
+}
+
+.cat-card__tag--brown {
+    background-color: #c49572;
+}
+
+.cat-card__tag--bear {
+    background-color: #d6c9b0;
+}
+
+.cat-card__tag--shark {
+    background-color: #a7c4f2;
+}
+
+.cat-card__tag--marine {
+    background-color: #b3d6d2;
+}
+
+.cat-card__tag--green {
+    background-color: #b5e2a9;
+}
+
+.cat-card__tag--bunny {
+    background-color: #f0d9e7;
+}
+
+.cat-card__tag--sanrio {
+    background-color: #235990;
+    color: white;
+}
+
+.cat-card__tag--cinnamoroll {
+    background-color: #bbd2fb;
+}
+
+.cat-card__tag--shrimp {
+    background-color: #f1de89;
+}
+
+.cat-card__tag--stationmaster {
+    background-color: #d27c63;
+}
+
+.cat-card__tag--ebinyan {
+    background-color: #d26b6a;
+}
+
+.cat-card__description {
+    min-height: 2.26rem;
+    font-size: 1rem;
+    text-wrap: pretty;
+    text-align: center;
+}
+
+.cat-card__description--loading {
+    border-radius: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 

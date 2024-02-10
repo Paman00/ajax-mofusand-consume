@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Shark Nyan",
+        "description": "A cat that is also a shark. It's a cat shark.",
+        "url": "https://mofusand-mofumofu-market.jp/collections/samenyan",
+        "image": {
+            "url": "./img/nyan-shark.webp",
+            "hover": "./img/nyan-shark-hover.webp",
+            "alt": "stuffed animal mofusand nyan cat shark"
+        },
+        "tags": [
+            "Cat",
+            "Shark",
+            "Marine"
+        ]
+    },
+    {
+        "name":"Teddy Bear Nyan (Ivory)",
+        "description":"A cat mascot with a bear costume. It's a cat bear.",
+        "url": "https://mofusand-mofumofu-market.jp/collections/teddybearnyan",
+        "image": {
+            "url": "./img/nyan-ivory-teddy.webp",
+            "hover": "./img/nyan-ivory-teddy-hover.webp",
+            "alt": "stuffed animal mofusand nyan cat ivory teddy bear"
+        },
+        "tags": [
+            "Cat",
+            "Bear",
+            "Ivory"
+        ]
+    },
+    {
+        "name": "Cinnamoroll Sanrio Nyan",
+        "description": "A cat with a cinnamon roll costume from Sanrio.",
+        "url": "https://mofusand-mofumofu-market.jp/collections/mofusand_sanrio",
+        "image": {
+            "url": "./img/sanrio-cinnamoroll.webp",
+            "hover": "./img/sanrio-cinnamoroll-hover.webp",
+            "alt": "stuffed animal mofusand nyan cat cinnamoroll sanrio"
+        },
+        "tags": [
+            "Cat",
+            "Sanrio",
+            "Cinnamoroll"
+        ]
+    },
+    {
+        "name": "Teddy Bear Nyan (Brown)",
+        "description": "A cat mascot with a brown bear costume. It's a cat bear.",
+        "url": "https://mofusand-mofumofu-market.jp/collections/teddybearnyan",
+        "image": {
+            "url": "./img/nyan-brown-teddy.webp",
+            "hover": "./img/nyan-brown-teddy-hover.webp",
+            "alt": "stuffed animal mofusand nyan cat brown teddy bear"
+        },
+        "tags": [
+            "Cat",
+            "Bear",
+            "Brown"
+        ]
+    },
+    {
+        "name": "Stationmaster Nyan",
+        "description": "A cat who will take you to your flying destination.",
+        "url": "https://mofusand-mofumofu-market.jp/collections/mofustation",
+        "image": {
+            "url": "./img/nyan-stationmaster.webp",
+            "hover": "./img/nyan-stationmaster-hover.webp",
+            "alt": "stuffed animal mofusand nyan cat stationmaster"
+        },
+        "tags": [
+            "Cat",
+            "Stationmaster"
+        ]
+    },
+    {
+        "name": "Shrimp Nyan",
+        "description": "Beautiful cat with a shrimp on its head.",
+        "url": "https://mofusand-mofumofu-market.jp/collections/ebinyan",
+        "image": {
+            "url": "./img/nyan-shrimp.webp",
+            "alt": "stuffed animal mofusand nyan cat ebinyan"
+        },
+        "tags": [
+            "Cat",
+            "Ebinyan",
+            "Shrimp"
+        ] 
+    },
+    {
+        "name": "Midori Usanyan",
+        "description": "A cat with a bunny costume and his carrot.",
+        "url": "https://mofusand-mofumofu-market.jp/collections/usanyan",
+        "image": {
+            "url": "./img/usanyan-midori-green.webp",
+            "hover": "./img/usanyan-midori-green-hover.webp",
+            "alt": "stuffed animal mofusand nyan cat midori usanyan"
+        },
+        "tags": [
+            "Cat",
+            "Bunny",
+            "Green"
+        ]
+    },
+    {
+        "name": "Shrimp Nyan Beige",
+        "description": "A orange cat with a shrimp on its head.",
+        "url": "https://mofusand-mofumofu-market.jp/collections/ebinyan",
+        "image": {
+            "url": "./img/nyan-shrimp-beige.webp",
+            "alt": "stuffed animal mofusand nyan cat ebinyan beige"
+        },
+        "tags": [
+            "Cat",
+            "Ebinyan",
+            "Shrimp"
+        ]
+    }
+]
