@@ -3,7 +3,7 @@ getCats(printCats);
 function getCats(callback) {
     const request = new XMLHttpRequest();
     let res;
-    request.open("GET", "/lib/data.json");
+    request.open("GET", "https://paman00.github.io/ajax-mofusand-consume/lib/data.json");
     request.responseType = "json";
     request.send();
     request.onload = () => {
