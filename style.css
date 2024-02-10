@@ -28,7 +28,7 @@ ul {
 img {
     max-width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .hero {
@@ -90,6 +90,7 @@ img {
 }
 
 .cat-card {
+    position: relative;
     display: flex;
     flex-flow: column nowrap;
     padding: 15px;
@@ -101,6 +102,16 @@ img {
 
 .cat-card:hover {
     cursor: pointer;
+}
+
+.cat-card--loading {
+    animation: loading-animation 1.5s infinite;
+}
+.cat-card--loading:nth-child(2n) {
+    animation-delay: 0.2s;
+}
+.cat-card--loading:nth-child(3n) {
+    animation-delay: 0.4s;
 }
 
 .cat-card__img-container {
@@ -247,3 +258,12 @@ img {
         transform: rotate(360deg);
     }
 } 
+
+@keyframes loading-animation {
+    0%, 100% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 85%;
+    }
+}
