@@ -11,7 +11,7 @@ function getCats(callback) {
         if (res === null) {
             throw new Error("No data found");
         }
-        callback(res);
+        setTimeout(() => callback(res), 1000); // Hardcoded delay to show loading skeletons
     };
 }
 
